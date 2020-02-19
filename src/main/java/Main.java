@@ -14,11 +14,11 @@ public class Main {
 
 
 
-        System.out.print("a: ");
+        System.out.print("Please enter a: "); //line edited by Anganathi
         a =  sc.nextInt();
-        System.out.print("b: ");
+        System.out.print("Please enterb: "); //line added by Anganathi
         b =  sc.nextInt();
-        System.out.print("c: ");
+        System.out.print("Please enter c: "); //line added by Anganathi
         c =  sc.nextInt();
 
         float underRoot = (float) sqrt((b * b) - (4 * a * c));
@@ -43,9 +43,7 @@ public class Main {
                 System.out.printf("x = %.2f or  x = %.2f\n", x1, x2);
             }
 
-
-
         }
 
-    }
-}
+    } //end of main method
+} // end of class
